@@ -1,0 +1,1293 @@
+@media only screen and (max-width: 1660px) {
+    /* h2 {
+        font-size: 1.8em;
+    } */
+    /* .navbar-light .navbar-nav .nav-link {
+        font-size: 0.8em;
+    } */
+
+    .caption {
+        left: 9%;
+        max-width: 500px;
+    }
+    .second-img {
+        margin-left: 5em;
+        margin-top: -2em;
+    }
+    .banner-slider .caption h1, .home-banner .caption h1 {
+        font-size: 2.2em;
+    }
+    /* .listening p, .listening a {
+        font-size: 18px;
+    } */
+    .box-care {
+        max-width: 245px;
+    }
+    /* .cancer-care p {
+        font-size: 0.9em;
+    } */
+    .blood-holds h3 {
+        font-size: 2.2em;
+    }
+    .world-content {
+        height: 60vh;
+    }
+    .world-content .diagnostics-heading {
+        padding-top: 3em;
+    }
+    .world-content p {
+        /* font-size: 0.7em; */
+    }
+    .india {
+        top: 40%;
+        right: 4.5%;
+        transform: translate(4.5%, -40%);
+    }
+    .usa, .uk, .germany, .india {
+        font-size: 10px;
+    }
+    .usa:before, .uk:before, .germany:before, .india:before {
+        width: 8px;
+        height: 8px;
+        left: -10px;
+    }
+    /* .uk {
+        top: 33%;
+        transform: translate(29.6%, -33%);
+    } */
+    /* .cancer-screning li a {
+        font-size: 3em;
+    } */
+
+    .solution-diagnosis h2 {
+        font-size: 2.5em;
+    }
+    /* .therapy-guidance p {
+        font-size: 0.8em;
+    } */
+    .container.dwdw {
+        top: 10%;
+    }
+    /* .solution-monitoring .card-wrapper:nth-child(2) h2 {
+        font-size: 1.5em;
+    } */
+    /* .solution-monitoring .card-wrapper .second-card p span {
+        font-size: 1.2em;
+    } */
+    .solution-monitoring p {
+        /* font-size: 1.3em; */
+    }
+    .factsContainer_sm {
+        padding-left: 6% !important;
+    }
+    .solution-monitoring .card-wrapper:nth-child(2) .fact {
+        max-width: 100%;
+    }
+    .fact {
+        /* max-width: 90%; */
+    }
+    .factsContainer_sm > div {
+        flex: 0 0 50%;
+    }
+    
+    
+/* .factsContainer_sm > div {
+    flex: 0 0 75%;
+} */
+    /* .solution-diagnosis h2, .therapy-guidance h2{
+        font-size: 2em;
+    } */
+    .first-card div {
+        margin-top: 6em;
+    }
+    .solution-monitoring .card-wrapper:nth-child(2) h2 {
+        margin-bottom: 0;
+    }
+    .solution-monitoring .card-wrapper:nth-child(3) {
+        margin-top: 4em;
+    }
+    .solution-monitoring .card-wrapper:nth-child(3) p {
+        margin-top: 1em;
+    }
+
+    .solution-monitoring .card-wrapper:nth-child(4) .fact {
+        margin-top: -4em;
+    }
+    .solution-monitoring .card-wrapper:nth-child(5) .fact {
+        margin-top: 5em;
+    }
+    .solution-monitoring .card-wrapper:nth-child(5) .fact p {
+        margin-top: 5em;
+    }
+    .therapy-guidance h3 {
+        font-size: 1.5em;
+    }
+    .our-thinking{
+        height: 100vh;
+    }
+    .our-thinking .our-box {
+        transform: translateY(-35%);
+    }
+    
+}
+
+@media only screen and (max-width: 1366px) {
+    body {
+        font-size: 1em;
+    }
+    .world-content {
+        height: 82vh;
+    }
+    .usa, .uk, .germany, .india {
+        font-size: 14px;
+    }
+    .usa {
+        top: 33%;
+        transform: translate(12%, -33%);
+    }
+    .uk {
+        right: 31%;
+    }
+    .germany {
+        right: 17%;
+    }
+    .india {
+        right: 2.5%;
+    }
+    .inner-banner .inner-caption {
+        max-width: 35%;
+        left: 10%;
+        transform: translate(-10%, -50%);
+    }
+
+    .product-horizontal .card h2 {
+        font-size: 1.8em;
+    }
+    .who-we-caption p {
+        /* font-size: 0.8em; */
+    }
+    /* section.datar-genetics h2 {
+        font-size: 2.3em;
+    } */
+    /* .our-thinking h2 {
+        font-size: 2.2em;
+    } */
+    /* .product-horizontal .card {
+        max-width: 35%;
+    } */
+    .product-horizontal .card h2 {
+        font-size: 2em;
+    }
+    /* .product-horizontal .card p, .excta-comprehensive-tumor-analysis .product-horizontal .card li {
+        font-size: 1em;
+    } */
+    /* .card ul li {
+        font-size: 1em;
+    } */
+    /* .terms a:before {
+        right: -15px;
+      } */
+
+      .cards {
+        padding: 1rem 0;
+    }
+    .therapy-guidance .card-body {
+        padding: 0;
+    }
+    .therapy-card:nth-child(2) {
+        top: 15%;
+        height: 50%;
+    }
+    .therapy-card:nth-child(3) {
+        top: 24%;
+        height: 50%;
+    }
+    .therapy-card:nth-child(4) {
+        top: 33%;
+        height: 50%;
+    }
+   .therapy-card:nth-child(5) {
+        top: 42%;
+   }
+   
+   .solution-monitoring .card-wrapper:nth-child(5) .fact {
+        margin-top: 6em;
+    }
+     
+    .solution-monitoring .card-wrapper:nth-child(5) .fact p {
+        margin-top: 3em;
+    }
+     
+
+    .non-invasive-blood-tests-to-detect-cancer .card h1 {
+        font-size: 5em;
+    }
+
+    .who-we-caption {
+        width: 35%;
+        left: 8%;
+    }
+    .non-invasive-blood-tests-to-detect-cancer .box-care {
+        max-width: 310px;
+    }
+    .non-invasive-blood-tests-to-detect-cancer .box-care h1 {
+        font-size: 3em;
+    }
+    .test-portfolio-slider .swiper-slide {
+        height: 350px;
+    }
+    .test-portfolio-slider .swiper-slide p {
+        font-size: 15px;
+    }
+
+    .latest-global-medical-events .card-body p, .latest-global-medical-events .card-body a, .test-portfolio .caption a{
+        font-size: 14px;
+    }
+    .non-invasive-blood-tests-to-detect-cancer .box-care h2 {
+        font-size: 2.5em;
+    }
+    .team h3 {
+        font-size: 1.2em;
+    }
+
+    .faq .nav-tabs .nav-link {
+        margin: 0 0.2em;
+        padding: 0.3em 1em;
+    }
+    .accordion-button {
+        font-size: 0.6em;
+    }
+    .accordion-body p {
+        font-size: 1em;
+    }
+
+    /* .latest-global-medical-events .card-body h5 {
+        font-size: 0.9em;
+    } */
+    .blood-holds {
+        height: 90vh;
+    }
+    
+    .contact-us .product-list h3 {
+        font-size: 1.2em;
+    }
+
+    .right-card{
+        bottom: -7em;
+    }
+    .solutions-item {
+        margin-bottom: 55%;
+    }
+}
+
+@media (max-width: 1024px) {
+    h2 {
+        font-size: 1.8em;
+    }
+
+    /* header img {
+        width: 200px;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        padding: 0 1em;
+    } */
+    .caption {
+        max-width: 430px;
+    }
+    .banner-slider .caption h1, .home-banner .caption h1 {
+        font-size: 1.5em;
+        line-height: 1.3;
+    }
+    .caption p {
+        font-size: 0.7em;
+    }
+    .inner-banner .inner-caption {
+           left: 6%;
+        transform: translate(-6%, -50%);
+    }
+    .listening p, .listening a {
+        font-size: 16px;
+    }
+    .listening p:last-child {
+        font-size: 16px;
+    }
+    .box-care {
+        max-width: 205px;
+    }
+    .box-care h4{
+        font-size: 0.9em;
+    }
+    
+    /* .blood-holds {
+        height: 60vh;
+    } */
+    
+    .world-content {
+        height: 65vh;
+    }
+    .world-content .diagnostics-heading {
+        padding-top: 2em;
+    }
+    .world-content p {
+        font-size: 0.9em;
+    }
+
+    h5 {
+        font-size: 0.8em;
+    }
+    .usa, .uk, .germany, .india {
+        font-size: 10px;
+    }
+    .germany {
+        right: 12%;
+        top: 32%;
+        transform: translate(-11%, -32%);
+    }
+    .usa {
+        left: 15%;
+        top: 35%;
+        transform: translate(15%, -35%);
+        width: 20px;
+    }
+    .uk {
+        top: 28%;
+        transform: translate(29.6%, -28%);
+    }
+    .usa:before, .uk:before, .germany:before, .india:before {
+        width: 8px;
+        height: 8px;
+        left: -12px;
+    }
+    .india-location, .germany-location, .uk-location, .usa-location {
+        width: 150px;
+        font-size: 1em;
+    }
+
+    .cancer-screning li a {
+        font-size: 2.2em;
+    }
+    .cancer-screning li a span {
+        font-size: 16px;
+    }
+
+    .product-horizontal .card {
+        max-width: 50%;
+    }
+    .who-we .product-horizontal .card {
+        max-width: 85%;
+        margin-left: 0;
+    }
+    .who-we-caption {
+        left: 4%;
+    }
+    /* .who-we img {
+        width: 70%;
+    } */
+    .who-we-caption {
+        width: 45%;
+    }
+    .non-invasive-blood-tests-to-detect-cancer .box-care h1 {
+        font-size: 2.5em;
+    }
+    .non-invasive-blood-tests-to-detect-cancer .box-care {
+        max-width: 255px;
+    }
+
+
+    /* .product-horizontal .card p, .product-horizontal .card li {
+        font-size: 1em;
+    } */
+    .who-we-caption p {
+        font-size: 1em;
+    }
+    /* section.datar-genetics {
+        height: auto;
+    }
+    section.datar-genetics h2 {
+        font-size: 2.2em;
+    } */
+
+
+    .team h3 {
+        font-size: 1em;
+    }
+    .team p {
+        font-size: 0.8em;
+    }
+    .latest-global-medical-events .card-body {
+        padding: 1rem;
+    }
+    .latest-global-medical-events .card {
+        height: 300px;
+    }
+   
+    /* .latest-global-medical-events .card-body h5 {
+        font-size: 0.8em;
+    } */
+    /* .solutions-screening p {
+        font-size: 22px;
+    } */
+    footer h5 {
+        font-size: 1.2em;
+    }
+
+    .terms a:before {
+        right: -30%;
+    }
+    .faq .nav-tabs .nav-link {
+        padding: 0.3em 0.5em;
+    }
+
+}
+
+
+@media (max-width: 991px) {
+    body{
+        font-size: 1em;
+    }
+    .mp-0{
+        padding: 0 !important;
+    }
+    section {
+        padding: 30px 0;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+    /* header {
+        padding: 0;
+    }
+    .navbar-brand img {
+        max-width: 130px;
+    } */
+    .burger {
+        width: 45px;
+        height: 45px;
+        position: absolute;
+        top: 7px;
+        right: 0;
+        border-radius: 50%;
+        z-index: 999;
+    }
+    /* header .btn {
+      font-size: 0.7em;
+    }
+  */
+   
+    /* a.navbar-brand {
+        position: relative;
+        z-index: 9999;
+    } */
+
+    .burger.bg-blue {
+        -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,.2);
+        -moz-box-shadow: 0 0 10px 0 rgba(0,0,0,.2);
+        box-shadow: 0 0 10px 0 rgba(0,0,0,.2)
+    }
+    .navbar-toggler, .navbar-toggler:focus {
+        border: none;
+        box-shadow: none;
+        outline: 0;
+    }
+    .clicked {
+        position: fixed;
+        right: 0;
+    }
+    .burger span {
+        margin-bottom: 9px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-left: -13px;
+        margin-top: -1px
+    }
+
+    .burger span,.burger span::after,.burger span::before {
+        display: block;
+        width: 18px;
+        height: 3px;
+        background: var(--gradient);
+        outline: transparent solid 1px;
+        -webkit-transition-property: background-color,-webkit-transform;
+        -moz-transition-property: background-color,-moz-transform;
+        -o-transition-property: background-color,-o-transform;
+        transition-property: background-color,transform;
+        -webkit-transition-duration: .3s;
+        -moz-transition-duration: .3s;
+        -o-transition-duration: .3s;
+        transition-duration: .3s
+    }
+
+    .burger span::after,.burger span::before {
+        position: absolute;
+        content: "";
+        width: 24px
+    }
+    .burger span::before {
+        top: -7px
+    }
+    .burger span::after {
+        top: 7px
+    }
+    .burger.clicked span {
+        background: transparent
+    }
+    .burger.clicked span::before {
+        -webkit-transform: translateY(9px) rotate(45deg);
+        -moz-transform: translateY(9px) rotate(45deg);
+        -ms-transform: translateY(9px) rotate(45deg);
+        -o-transform: translateY(9px) rotate(45deg);
+        transform: translateY(9px) rotate(45deg);
+        top: -10px
+    }
+    .burger.clicked span::after {
+        -webkit-transform: translateY(-9px) rotate(-45deg);
+        -moz-transform: translateY(-9px) rotate(-45deg);
+        -ms-transform: translateY(-9px) rotate(-45deg);
+        -o-transform: translateY(-9px) rotate(-45deg);
+        transform: translateY(-9px) rotate(-45deg)
+    }
+    .burger.clicked span:after,.burger.clicked span:before {
+        background: var(--gradient);
+    }
+    .burger:hover {
+        cursor: pointer
+    }
+    /* .navbar-collapse {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        width: 100%;
+        background: var(--gray);
+        z-index: 999;
+    } */
+
+    /* header .dropdown button:before {
+        display: block;
+      } */
+
+    /* .navbar {
+        justify-content: space-between;
+        position: absolute;
+        top: 0;
+        z-index: 999;
+        width: 100%;
+        background: #ffffff;
+    } */
+
+    /* .navbar-collapse {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        width: 100%;
+        background: var(--gray);
+        z-index: 999;
+    }
+
+
+    .sub-menu {
+        position: static;
+    }
+
+    .sub-menu {
+        display: none;
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .sub-menu.show {
+        display: block;
+        width: 100%;
+    }
+    header .navbar-expand-lg .navbar-nav .dropdown-menu {
+        width: 100%;
+    }
+    .dropdown-item br{
+        display: none;
+    }
+   
+
+
+
+    .navbar-collapse-open {
+        transition: .5s
+    }
+    .navbar-nav {
+        padding: 15% 0 0 0;
+        height: 100vh;
+    }
+
+    .navbar-light .navbar-nav .nav-item {
+        border-bottom: 1px #000 dashed;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 1em;
+        padding: 0.6em 1.1em;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    .dropdown span {
+        display: block;
+      } */
+    .vector-img {
+        width: 35%;
+    }
+
+    .caption {
+        max-width: 100%;
+        top: 10%;
+        left: 0;
+        right: 0;
+        padding: 0 30px;
+    }
+
+    /* .main-banner br{
+        display: block;
+      } */
+      .listening, .about {
+        padding: 30px;
+      }
+      .world-class .row{
+        padding: 0 30px;
+      }
+    .listening p:last-child{
+        margin: 0 !important;
+        font-size: 14px;
+    }
+    .listening .mt-5{
+        margin:1em 0 0 0 !important;
+    }
+    /* .blood-holds .blood-content {
+        width: 100%;
+        padding: 0 30px;
+    } */
+
+    /* .world-content .diagnostics-heading {
+        padding-top: 0;
+    } */
+    .world-content {
+        position: static;
+        height: auto;
+        transform: translateY(0%);
+        text-align: center;
+    }
+    .diagnostics-heading br {
+        display: none;
+    }
+    .mobile-hide{
+        display: none;
+    }
+    .mobile-view{
+        margin-top: 2em;
+    }
+    
+    .cancer-care {
+        padding-bottom: 30px !important;
+        background: url(../images/cancer-care-bg-mobile.svg) center bottom no-repeat;
+        background-size: 8.5%;
+        background: #fff;
+    }
+    .personalized-cancer-care {
+        padding: 4em 0 !important;
+    }
+    .cancer-care .col-lg-9 {
+        padding: 0;
+        height: auto;
+        margin-top: 1em;
+    }
+    .box-care a:before, .box-care a:after{
+        display: none;
+    }
+    .usa:before, .uk:before, .germany:before, .india:before {
+        width: 5px;
+        height: 5px;
+        left: -8px;
+    }
+    .india {
+        right: -3%;
+        top: 43%;
+        transform: translate(3%, -43%);
+    }
+    .uk {
+        top: 28%;
+        right: 28%;
+        transform: translate(28%, -28%);
+    }
+    .germany {
+        right: 13%;
+        top: 34%;
+        transform: translate(-13%, -34%);
+    }
+    .box-care {
+        max-width: 70%;
+        text-align: center !important;
+        margin: 0 auto 4em;
+    }
+    .box-care h4 {
+        font-size: 1.2em;
+        margin-bottom: 0.6em;
+    }
+    
+    .box-care a {
+        font-size: 0.7em;
+        margin: 0;
+        padding: 0;
+    }
+    .cancer-care p {
+        font-size: 1.1em;
+    }
+    .box-care.monitoring{
+        margin-bottom: 0;
+    }
+    .mobile-image {
+        /* background: var(--gradient); */
+        /* height: 230px; */
+        margin-top: 0;
+    }
+    .mobile-image img{
+        max-width:50%;
+    }
+    .blood-holds {
+        /* padding: 7em 0; */
+        height: 50vh;
+    }
+    
+    .blood-holds h3 {
+        font-size: 2em;
+    }
+    .world-class{
+        padding-top: 30px !important;
+    }
+    .gray-bg h3, .world-class h2 {
+        /* font-size: 1.3em; */
+        margin-bottom: 0.5em;
+    }
+    
+    .desktop-view{
+        visibility: hidden;
+        height: 0;
+    }
+    .mobile-view{
+        visibility: visible;
+        height: auto;
+    }
+    .world-content .diagnostics-heading {
+        padding-top: 0;
+    }
+    .world-content p {
+        font-size: 1em;
+    }
+    .location-point {
+        width: 65%;
+        right: 0;
+        margin: 0 auto;
+        left: 0;
+    }
+    /* .terms li {
+        width: 50%;
+      } */
+    /* .terms a:before{
+        display: none;
+    } */
+
+    .non-invasive-blood-tests-to-detect-cancer .product-horizontal {
+        align-items: end;
+    }
+    /* .who-we-caption {
+        width: 90%;
+        left: 0;
+        padding: 15px;
+        border-radius: 15px;
+        margin: 0 auto;
+        right: 0;
+        background-color: rgb(217 217 217 / 21%);
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+    } */
+    /* .who-we-caption {
+        width: 60%;
+    } */
+    /* .who-we img {
+        width: 100%;
+        margin: 0 auto;
+    } */
+    .who-we-caption p {
+        font-size: 1.2em;
+    }
+    .our-thinking.test-portfolio{
+        background-size: cover !important;
+    }
+    .test-portfolio-slider .swiper-slide p {
+        font-size: 16px;
+    }
+    .our-thinking {
+        height: auto;
+    }
+    .our-thinking .our-box {
+        transform: translateY(0%);
+    }
+    .team h3 {
+        font-size: 1.2em;
+    }
+    .latest-global-medical-events .card {
+        height: 260px;
+    }
+    /* .latest-global-medical-events .card-body h5 {
+        font-size: 1.1em;
+    } */
+  
+    .product-horizontal .card {
+        max-width: 80%;
+    }
+    .product-horizontal .card p, .product-horizontal .card li {
+        font-size: 1.4em;
+    }
+
+
+    .advanced-cancer-care-solutions .inner-banner {
+        height: 40vh;
+    }
+    .advanced-cancer-care-solutions .inner-banner h2 {
+        margin-top: -2em;
+        font-size: 2em;
+    }
+    .solution-monitoring .card-wrapper:nth-child(2) .fact, .fact {
+        max-width: 100%;
+        margin-bottom: 0;
+        margin-right: 0;
+    }
+
+    .solutions-screening:before {
+        content: "";
+        width: 100%;
+        height: 100%;
+        background: rgb(0 0 0 / 30%);
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        z-index: -1;
+    }
+    .solutions-screening p {
+        font-size: 17px;
+    }
+    .solution-monitoring .italic-heading {
+        position: static;
+        z-index: unset;
+    }
+    .factsContainer_sm > div {
+        flex: 0 0 50%;
+    }
+    .factsContainer_sm {
+        padding-left: 0 !important;
+    }
+    .factsContainer_sm {
+        display: block;
+        height: auto !important;
+    }
+    .solution-monitoring .card-wrapper:nth-child(2) h2, .solution-monitoring .card-wrapper:nth-child(4) .fact p, .solution-monitoring .card-wrapper:nth-child(5) .fact, .solution-monitoring .card-wrapper:nth-child(4) .fact, .solution-monitoring .card-wrapper:nth-child(3), .first-card div, .solution-monitoring .card-wrapper:nth-child(3) p, .solution-monitoring .card-wrapper:nth-child(5) .fact p {
+        margin-bottom: unset;
+        margin-top: unset;
+    }
+    .factsContainer_sm > img, .container.dwdw{
+        display: none;
+    }
+    .solution-monitoring {
+        padding: 30px 15px !important;
+    }
+    .factsContainer_sm .card-wrapper .first-card > h2{
+        color: var(--green-color);
+        font-weight: 300;
+        margin-bottom: 0.5em;
+    }
+    .solution-monitoring p {
+        font-size: 1em;
+    }
+    .solution-diagnosis span {
+        font-size: 0.8em;
+    }
+    .solution-monitoring .card-wrapper:nth-child(4) .fact {
+        display: flex;
+        flex-flow: column-reverse;
+        margin: 1em 0;
+    }
+    .solution-monitoring .card-wrapper:nth-child(3) .fact img {
+        width: auto;
+    }
+    .fact img {
+        margin-bottom: 1.5rem;
+    }
+    .terms a:before {
+        right: -18%;
+    }
+    .faq .nav-tabs .nav-link {
+        margin: 5px 0.3em;
+        padding: 0.3em 1em;
+    }
+    .accordion-button {
+        font-size: 0.7em;
+    }
+    .accordion-button {
+        padding: 1rem 3.5rem 1rem 0.5rem;
+    }
+    .accordion-body{
+        padding: 15px;
+    }
+    .accordion-button::after, .accordion-button:not(.collapsed)::after {
+        top: 5px;
+    }
+    .accordion-button:not(.collapsed)::after {
+        top:5px;
+    }
+
+    .non-invasive-blood-tests-to-detect-cancer .blood-test {
+        top: 15%;
+    }
+    .non-invasive-blood-tests-to-detect-cancer .blood-test img {
+        max-width: 140px;
+        opacity: 0.3;
+    }
+    .solution-monitoring .card-wrapper:nth-child(6) .fact {
+        flex-direction: column-reverse;
+        margin-top: 1em;
+    }
+   
+}
+
+
+
+@media screen and (max-width : 767px) {
+    
+    .hidden-mobile {
+        display: none;
+    }
+    .hidden-Desktop {
+        display: block;
+    }
+    
+    .modal-dialog-centered {
+        align-items: self-start;
+    }
+    .trusted-head {
+        flex-direction: column;
+    }
+    .trusted-head h3 {
+        margin: 0 0 10px 0;
+    }
+    .modal-footer h2 {
+        font-size: 1.5em;
+    }
+    .modal-footer {
+        flex-direction: column;
+        align-items: self-start;
+        padding: 1em;
+    }
+    .modal-footer br{
+        display: none;
+    }
+    
+    
+    .blood-holds {
+        height: auto;
+        padding: 5em 0;
+        background-attachment: inherit;
+    }
+    .blood-content {
+        transform: translatey(0) !important;
+    }
+    .vector-img {
+        width: 75%;
+    }
+    .cancer-care {
+        background-size: 34%;
+    }
+    .screening{
+        margin-top: 3em;
+    }
+    .screning-services {
+        margin-bottom: 2em;
+    }
+    .cancer-screning li a sup {
+        top: -1.5em;
+    }
+    .cancer-screning p {
+        font-size: 1em;
+        margin-bottom: 16px !important;
+    }
+    .cancer-screning li a {
+        font-size: 1.8em;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    .cancer-screning li a span {
+        margin-top: 5px;
+    }
+
+    .inner-banner .inner-caption {
+        max-width: 100%;
+        width: 100%;
+        top: 15%;
+        left: 15%;
+        transform: translate(-15%, -20%);
+        padding: 0 1.5em;
+    }
+    .product-list{
+        padding: 30px 0;
+    }
+    .inner-banner .inner-caption h2 {
+        font-size: 2.5em;
+    }
+    /* .inner-banner .inner-caption p {
+        font-size: 1.5em;
+    } */
+
+
+  
+    .product-horizontal > div {
+        display: block;
+        padding: 0;
+    }
+    .product-horizontal {
+        display: block;
+        padding: 30px 0;
+    }
+    .product-horizontal .card {
+        height: auto;
+    }
+    /* .cancertrack-non-invasive-cancer-monitoring .card-wrapper:first-child {
+        padding-top: 14%;
+    } */
+    /* .horizontal-scoll-wrapper {
+        height: auto !important;
+    } */
+     
+
+
+    .product-horizontal .card {
+        max-width: 100%;
+        padding: 15px;
+        margin-left: 0;
+        /* margin-bottom: 1.5em; */
+    }
+    .product-horizontal .card h2 {
+        font-size: 1.3em;
+    }
+    .product-horizontal .card p, .excta-comprehensive-tumor-analysis .product-horizontal .card li {
+        font-size: 1em;
+    }
+    .product-horizontal .card p, .product-horizontal .card li {
+        font-size: 1em;
+    }
+
+    .excta-comprehensive-tumor-analysis .card-wrapper:nth-child(1) .card {
+        /* padding-bottom: 10em;
+        padding-top: 16em; */
+    }
+    .excta-comprehensive-tumor-analysis .card-wrapper:nth-child(4) .card{ max-width: 100%;}
+    
+    .solution-diagnosis h2 {
+        font-size: 2em;
+    }
+    
+    /* .chemo-scale-effective-chemotherapy .card-wrapper:nth-child(1) .card {
+        padding-top: 5em;
+    } */
+
+
+    footer {
+        padding-top: 30px !important;
+    }
+    footer form {
+        width: 100%;
+    }
+
+    footer span {
+        padding: 10px 15px;
+        max-width: 270px;
+        font-size: 12px;
+    }
+    footer h5 {
+        font-size: 1.3em;
+    }
+    footer p.mb-4{
+        margin-bottom: 1em !important;
+    }
+    footer h5.mb-3{
+        margin-bottom: 0.3em !important;
+    }
+    footer p, footer a {
+        font-weight: 400;
+        font-size: 1em;
+    }
+    .terms a:before{
+        display: none;
+    }
+    .terms a {
+        font-size: 0.7em;
+    }
+
+    .latest-press h2 {
+        font-size: 1.4em;
+    }
+
+    .social {
+        margin-top: 2em;
+    }
+
+
+    .who-we .product-horizontal .card-wrapper:first-child .card{
+        background: transparent;
+        height: 320px;
+        backdrop-filter: unset;
+        padding-bottom: 10em;
+    }
+    .who-we .product-horizontal .card {
+        max-width: 95%;
+        background-color: rgb(217 217 217 / 21%);
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+        height: auto;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .who-we .product-horizontal .card-wrapper:last-child .card{
+        background: transparent;
+    }
+    .non-invasive-blood-tests-to-detect-cancer .card h1 {
+        font-size: 2.8em;
+    }
+    .non-invasive-blood-tests-to-detect-cancer .product-horizontal .card h2 {
+        color: #fff;
+    }
+    .non-invasive-blood-tests-to-detect-cancer .product-horizontal .card p {
+        font-size: 1em;
+        line-height: 1.4;
+        color:#fff;
+    }
+    .who-we-caption p {
+        line-height: 1.5;
+        font-size: 1em;
+        color: #072240;
+    }
+    .non-invasive-blood-tests-to-detect-cancer .cancer-care .pb-5{
+        padding-bottom: 0 !important;
+    }
+    .non-invasive-blood-tests-to-detect-cancer .cancer-care {
+        background-size: 22.5%;
+    }
+    .non-invasive-blood-tests-to-detect-cancer .screening {
+        margin-top: 0em;
+    }
+    
+    .latest-global-medical-events .conferences {
+        padding: 50px 0 !important;
+        height: 100%;
+        background: url(../images/oncology-conferences-mobile.webp) top no-repeat;
+        background-size: cover;
+    }
+    .latest-global-medical-events .card {
+        height: 230px;
+    }
+    .terms span {
+        padding: 12px 15px;
+        font-size: 14px;
+    }
+    .mobile-space {margin-top:4em !important;margin-bottom: 1em !important;}
+    .terms .col-sm-10 .mobile-space:first-child {margin-top:0 !important;}
+    footer .btn {
+        padding: 15px 35px;
+    }
+    footer form .form-control {
+        padding: 10px 15px;
+        font-size: 0.9em;
+    }
+    .advanced-cancer-care-solutions .inner-banner {
+        height: 50vh;
+    }
+  
+    .solutions-screening {
+        padding: 0 15px !important;
+    }
+    .solutions-item {
+        padding: 1em;
+        margin-bottom: 5%;
+    }
+    .right-card {
+        bottom: -4em;
+    }
+    .solutions-screening .row .col-lg-5:first-child {
+        margin-top: -5em;
+    }
+    
+    .cards {
+        padding: 0rem 0;
+    }
+    
+    .therapy-guidance h2, .therapy-guidance h3 {
+        font-size: 1.3em;
+    }
+    .therapy-guidance p {
+        font-size: 0.9em;
+    }
+    .therapy-card:nth-child(2) {
+        top: 10%;
+        height: 65%;
+    }
+    .therapy-card:nth-child(3) {
+        top: 17%;
+        height: 55%;
+    }
+    .therapy-card:nth-child(4) {
+        top: 24%;
+        height: 50%;
+    }
+    .therapy-card:nth-child(5) {
+        top: 31%;
+        height: 50%;
+    }
+
+    .factsContainer_sm > div {
+        flex: 0 0 100%;
+    }
+
+    .faq .nav-tabs .nav-link {
+        margin-bottom: 10px;
+    }
+    footer hr:not([size]) {
+        margin: 0.5rem 0;
+    }
+    .contact-us .product-list h3 {
+        font-size: 1em;
+    }
+    /* .horizontal-scoll-wrapper {
+        height: auto;
+    } */
+    .team h2 {
+        font-size: 2em;
+    }
+    .team .mb-5 {
+        margin-bottom: 1em !important;
+    }
+    .publication-page hr {
+        margin: 20px auto 0;
+    }
+    .publication-box {
+        min-height: auto;
+    }
+    .publication-box a {
+        position: static;
+    }
+}
+
+@media screen and (max-width : 359px) {
+    
+   
+}

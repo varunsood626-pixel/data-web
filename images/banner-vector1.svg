@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 432.48 367.98">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#New_Gradient_Swatch_copy_25-2);
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-4 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-3 {
+        fill: url(#New_Gradient_Swatch_copy_25);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-2" x="0" y="-269.33" width="1440" height="810.82"/>
+    </clipPath>
+    <linearGradient id="New_Gradient_Swatch_copy_25" data-name="New Gradient Swatch copy 25" x1="994.36" y1="-8804.35" x2="1180.94" y2="-8961.58" gradientTransform="translate(6933.56 5955.4) rotate(-56.69)" gradientUnits="userSpaceOnUse">
+      <stop offset=".08" stop-color="#0097ff"/>
+      <stop offset=".56" stop-color="#00d8ff"/>
+      <stop offset=".68" stop-color="#15ded1"/>
+      <stop offset=".85" stop-color="#39e98a"/>
+      <stop offset="1" stop-color="#6bc024"/>
+    </linearGradient>
+    <linearGradient id="New_Gradient_Swatch_copy_25-2" data-name="New Gradient Swatch copy 25" x1="14745.95" y1="-8821" x2="15037.48" y2="-8821" gradientTransform="translate(15680.34 -7353.8) rotate(123.31) scale(1 -1)" xlink:href="#New_Gradient_Swatch_copy_25"/>
+  </defs>
+  <g class="cls-4">
+    <g>
+      <path class="cls-3" d="M87.27,58.01c-40.91-4.53-80.22,7.06-80.22,7.06,0,0,58.29-4.85,89.27,19.24,13.71,10.66,19.51,23.58,21.74,30.31,3.55,12.1,5.61,25.45,6.53,39.65.53,8.16,6.97,114.35,9.81,161.36l72.15-26.83c-4.3-59.74-10.54-119.19-10.54-119.19-10.48-86.43-62.97-106.53-108.74-111.59Z"/>
+      <path class="cls-1" d="M77.74,106.37l12.36,155.1c.97,10.18,7.02,18.25,15.06,22.86,7.42,5.56,17.23,7.9,26.96,4.76l147.27-50.19c81.35-25.77,132.13,38.9,144.39,53.5-24.46-9.64-53.51-6.37-84.27,4.09-30.75,10.46-179.76,61.81-179.76,61.81-33.18,12.34-67.68,6.45-94.38-11.2l-.04.07c-.35-.22-.66-.49-1.01-.71-.34-.23-.71-.41-1.05-.64l.04-.07c-26.79-17.51-45.89-46.84-47.72-82.19,0,0-11.98-157.15-14.58-189.53C-1.58,41.65-10.1,13.69-28.66-4.94-10.39.52,69.12,21.47,77.74,106.37Z"/>
+    </g>
+  </g>
+</svg>

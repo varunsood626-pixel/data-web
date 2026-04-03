@@ -1,0 +1,3 @@
+# Test if .htaccess is working
+RewriteEngine On
+RewriteRule ^test$ public/index.php [L]

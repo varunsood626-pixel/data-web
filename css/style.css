@@ -1,0 +1,2382 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    background: var(--white);
+    font-family: "Roboto", serif !important;
+    font-weight: 600;
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: var(--body-color);
+    overflow-x: hidden;
+  } 
+  
+  ::-webkit-scrollbar {
+    width: 9px;
+  }
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: var(--white);
+  }
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--trublood);
+    border-radius: 10px;
+  }
+
+
+  ::-moz-selection { /* Code for Firefox */
+    color: #fff;
+    background: var(--trublood);
+  }
+  
+  ::selection {
+    color: #fff;
+    background: var(--trublood);
+  }
+  
+
+  :root {
+    --body-color: #557396;
+    --blue-color:#32ADE6;
+    --dark-blue: #007AFF;
+    --light-blue:#00AEEF;
+    --green-color:#6BC024;
+    --light-green: #39E98A;
+    --title-color:#18385C;
+    --blue-bg: #2D9DE9;
+    --white: #fff;
+    --gray-color:#333333;
+    --gray: #E4F2FF;
+    --light-gray: #f4faff;
+    --text-black:#000;
+    --blue-new:#0A5CAB;
+    --trublood:#3B9CE6;
+    --trublood-text:#092443;
+    --exacta:#29ADEC;
+    --celldx:#3BABA1;
+    --gradient: linear-gradient(90deg, #0A5CAB 8%, #2D9DE9 30%, #00AEEF 44%, #2FABA1 57%, #79BE79 82%, #C5DE83 100%);
+    /* --gradient:linear-gradient(90deg, #0097FF 0%, #00D8FF 50%, #22E2B9 70%, #6BC024 100%); */
+    --gradient-hover:linear-gradient(90deg, #6BC024 0%, #22E2B9 50%, #00D8FF 70%, #0097FF 100%);
+  }
+
+  .text-gray{
+    color: #557396 !important;
+  }
+
+  img{
+    width: 100%;
+  }
+  ul{
+    padding: 0;
+    margin: 0;
+  }
+  li{
+    list-style: none;
+  }  
+  h1{
+    font-size: 4em;
+    font-weight: 600;
+    color: #000;
+    line-height: 1;
+  }
+  h2{
+    font-size: 2.1em;
+    line-height: 1.2;
+    color: var(--title-color);
+    font-weight: 400;
+  }
+  h3{
+    font-size: 2em;
+    line-height: 1.2;
+    color: #000;
+    font-weight: 300;
+  } 
+  h5{
+    color: var(--body-color);
+    font-weight: 500;
+  }
+  .text-black{
+    color: #000;
+  }
+  .btn {
+    background: rgb(0,151,255);
+    background: var(--gradient);
+    padding: 0.6em 1.2em;
+    border: none;
+    outline: none;
+    color: var(--white);
+    transition: 0.5s;
+}
+.btn:hover{
+  background: var(--gradient-hover);
+}
+.btn-check:focus+.btn, .btn:focus{
+  box-shadow: none;
+}
+.gray-bg{
+    background: var(--gray);
+}
+section, footer{
+    padding: 70px 0;
+    position: relative;
+}
+
+.trusted-head {
+    background: #1560A1;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.trusted-head h3 {
+    font-size: 1em;
+    font-weight: 400;
+    margin: 0 10px 0 0;
+}
+.trusted-head .btn {
+    padding: 10px 15px !important;
+    font-weight: 400;
+    text-transform: capitalize !important;
+    margin: 0 5px;
+    font-size: 0.8em;
+}
+.trusted-head .btn:hover{
+    background: var(--trublood);
+    color: var(--white);
+}
+.trusted-model .modal-dialog {
+    max-width: 800px;
+    margin: 1.75rem auto;
+}
+.trusted-model .modal-dialog video{
+    width:100%;
+}
+
+.trusted-model .modal-content {
+    border: none;
+    border-radius: .3rem;
+    box-shadow: 2px 8px 23px 3px rgba(0, 0, 0, 0.2);
+}
+.trusted-model {
+    background: rgb(0 0 0 / 0%);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+.trusted-model button.btn-close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background: #072240 url(../images/close.svg) center center no-repeat;
+    z-index: 999;
+    opacity: 1;
+    border-radius: 50%;
+    background-size: 70%;
+}
+.modal-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    background: #1560a1;
+    margin: 0;
+    border: none;
+    margin-top: -10px;
+    padding: 0.4em 2em;
+}
+.modal-footer h2 {
+    font-size: 2em;
+    color: #fff;
+    margin: 0;
+    font-weight: 700;
+}
+.modal-footer .btn{
+    padding: 8px 15px !important;
+    font-weight: 400;
+    text-transform: capitalize !important;
+    margin: 0;
+    font-size: 0.8em;
+    background: #072240;
+    border-radius: 50px;
+    display: inline-block;
+}
+.modal-footer .btn:hover{
+    background: var(--trublood);
+    color: var(--white);
+}
+.modal-footer p, .modal-footer a {
+    font-size: 0.8em;
+    font-weight: 400;
+    display: block;
+}
+
+/* Header Start */
+header {
+  /* padding:0 1em; */
+  background: #fff;
+}
+header img {
+  width: 250px;
+}
+.fixed {
+position: fixed;
+width: 100%;
+top: -100px;
+-webkit-transition: -webkit-transform 1s;
+transition: transform 1s;
+transition: transform 1s, -webkit-transform 1s;
+-webkit-transform: translateY(100px);
+transform: translateY(100px);
+z-index: 999;
+box-shadow: 0 5px 10px rgb(0 0 0 / 8%);
+}
+.navbar-toggler {
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  border-radius: 50%;
+  transition: 0.3s ease-in-out;
+  flex-shrink: 0;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+header .navbar-dark .navbar-nav .nav-link{
+  color: var(--body-color);
+  padding: 0.5em 2em;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 500;
+}
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link:focus {
+  color: #007AFF;
+  outline: none;
+}
+header .dropdown-toggle::after{
+  display: none;
+}
+header .navbar-expand-lg .navbar-nav .dropdown-menu {
+  width: 200px;
+  left: 25px;
+  padding: 0px 0;
+  /* display: block; */
+  border-radius: 0;
+  border-top: 3px var(--blue-new) solid;
+}
+header .dropdown-menu li a {
+  text-align: left;
+  padding: 8px 15px;
+  display: block;
+  text-decoration: none;
+  color: var(--gray-color);
+  transition: 0.5s;
+  font-weight: 500;
+}
+header .dropdown-menu li a:hover {
+  background: var(--trublood);
+  color: var(--white);
+}
+.dropdown-menu li sup {
+font-size: 0.7em !important;
+    top: -0.6em !important;
+}
+.dropdown-menu li:first-child a sup {
+    font-size: 1em !important;
+    top: -0.4em !important;
+}
+
+/*.dropdown-menu li:nth-child(2) sup {*/
+/*  font-size: 1.1em;*/
+/*  top: -0.2em;*/
+/*}*/
+@media screen and (max-width: 1024px) {
+  header .navbar-dark .navbar-nav .nav-link {
+    padding: 0 1em;
+  }
+  header img {
+      width: 200px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .navbar-brand img {
+      max-width: 130px;
+  }
+  .navbar-collapse.collapse:not(.show) {
+    display: block;
+  }
+  .navbar-collapse {
+    position: fixed;
+    top: 0;
+    right: -16em;
+    background: var(--gray);
+    width: 250px;
+    height: 100vh;
+    z-index: 99;
+    padding: 45px 15px;
+    /* transform: translateX(430px); */
+    transition: 0.3s ease-in-out;
+    /* display: table; */
+  }
+  .navbar-collapse.show {
+    /* transform: translateX(165px); */
+    right: 0;
+  }
+  
+  header .dropdown-toggle:before {
+    content: '';
+    height: 8px;
+    width: 8px;
+    position: absolute;
+    bottom: 14px;
+    top: 18px;
+    right: 0;
+    border-top: black solid 2px;
+    border-left: black solid 2px;
+    transform: rotate(225deg);
+    display: block;
+}
+header .navbar-dark .navbar-nav .nav-link {
+  padding: 0.5em 0em;
+}
+
+header .navbar {
+  padding-top: .2rem;
+  padding-bottom: .2rem;
+}
+header .navbar-expand-lg .navbar-nav .dropdown-menu {
+  width: 100%;
+}
+
+}
+
+/* Hover dropdowns on desktop only */
+@media (min-width: 992px) {
+  .navbar .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+  }
+}
+
+/* Header End */
+
+
+
+.hidden-Desktop{
+    display: none;
+}
+
+
+
+/* Banner Start */
+/* .swiper-container {
+    height: calc(100vh - 100%);
+  } */
+.main-banner .swiper-slide {
+  overflow: hidden;
+  display: block;
+  align-items: center;
+}
+  
+.caption {
+  position: absolute;
+  left: 16%;
+  top: 20%;
+  z-index: 99999;
+  max-width: 630px;
+  transform: translateY(-20%);
+}
+.banner-slider .caption h1, .home-banner .caption h1 {
+    font-size: 2.5em;
+    color: var(--white);
+    font-weight: 500;
+    line-height: 1.1;
+}
+.caption p {
+  font-weight: 400;
+}
+
+.banner-slider .swiper-button-prev,
+.banner-slider .swiper-button-next {
+  display: none;
+}
+
+
+/* 
+.slide-inner a{
+  color: var(--white);
+  text-decoration: none;
+  padding: 0 0.3em;
+  position: relative;
+  font-size: 20px;
+}
+.slide-inner a:hover{
+  color: var(--blue-color);
+}
+.slide-inner a:before {
+  content: "";
+  width: 4px;
+  height: 4px;
+  border-radius: 50px;
+  background: var(--white);
+  position: absolute;
+  top: 50%;
+  right: -3%;
+}
+.slide-inner a:last-child::before{
+  display: none;
+} */
+
+.vector-img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 40%;
+}
+.first-img {
+    display: block;
+    width: 60%;
+}
+.second-img {
+    display: block;
+    margin-left: 10em;
+    width: 80%;
+    margin-top: -4em;
+}
+/* Banner Start */
+
+
+/* Listening to You, Driving Change Start */
+.listening{
+  background: var(--blue-new);
+}
+
+.listening p, .listening h5{
+    color: var(--white);
+}
+.listening h5{
+  font-size: 1.1em;
+  line-height: 1.3;
+  font-weight: 600;
+}
+.listening p{
+  text-align: center;
+  font-weight: 500;
+}
+.listening a{
+  text-decoration: none;
+  color: var(--white);
+  transition: 0.5s;
+  text-decoration: underline;
+}
+
+.listening a:hover{
+  color: var(--light-blue);
+}
+
+.listening svg {
+  width: 100%;
+  height: 100%;
+}
+
+/* Listening to You, Driving Change End */
+
+
+/* Cancer Care Start */
+.cancer-care {
+  background: var(--white);
+    /* height: 107vh; */
+    padding-bottom: 12em !important;
+}
+.cancer-care .col-lg-9{
+  padding: 2em 0;
+  height: 195px;
+  margin-top: 1em;
+}
+
+
+.cancer-care h2{
+  color: #072240;
+}
+.screening h4{
+  color: var(--blue-new);
+}
+.diagnosis h4{
+  color: var(--light-blue);
+}
+.therapy h4{
+  color: #2FABA1;
+}
+.monitoring h4{
+  color: #79BE79;
+}
+.box-care {
+    max-width: 305px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    position: relative;
+    z-index: 99;
+}
+.box-care a {
+    color: var(--body-color);
+    font-size: 0.8em;
+    font-style: italic;
+    font-weight: 500;
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+    /* background: #ccc; */
+    margin-top: 0.8em;
+    padding: 3px 0 0 10px;
+    transition: 0.5s;
+}
+.box-care.screening:hover a{
+  color: var(--blue-new);
+}
+.box-care.diagnosis:hover a{
+  color: var(--light-blue);
+}
+.box-care.therapy:hover a{
+  color: #2FABA1;
+}
+.box-care.monitoring:hover a{
+  color: #79BE79;
+}
+.diagnosis a, .monitoring a {
+  padding: 3px 10px 0 0;
+}
+.box-care h4 {
+  font-size: 1.3em;
+}
+
+.box-care a:before, .box-care a:after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background: var(--blue-bg);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.box-care a:after{
+  width: 7px;
+  height: 7px;
+  background: var(--blue-bg);
+  left: 0;
+  border-radius: 50px;
+  top: -3px;
+  display: none;
+}
+.diagnosis a:before, .diagnosis a:after{
+  background: #15DED1;
+}
+.diagnosis a:after, .monitoring a:after{
+  left: unset;
+  right: 0;
+  transition: 0.5s;
+}
+.therapy a:before, .therapy a:after{
+  background: #00D8FF;
+}
+.monitoring a:before, .monitoring a:after{
+  background: var(--green-color);
+}
+
+
+.cancer-care p {
+  margin-bottom: 0;
+  line-height: 1.3;
+  font-weight: 600;
+  font-size: 1.1em;
+}
+.box-care p {
+  color: #2a4f79;
+  font-weight: 500;
+  font-size: 1em;
+}
+.image-are {
+  position: absolute;
+  top: 43%;
+  left: 35px;
+  right: 0%;
+  transform: translateY(-43%);
+  width: 265px;
+  height: 265px;
+  margin: 0 auto;
+}
+
+.blood-test {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 20%;
+}
+.blood-test img{
+    max-width: 270px;
+    transform-origin: center;
+    margin: 0 auto;
+    display: block;
+}
+
+
+/* Cancer Care End */
+
+
+.qwqw{
+  /*   position: sticky; */
+    top:0;
+    width:100%;
+    /* min-height: 100vh; */
+    background: var(--gray);
+  }
+.qwqw h2{
+    font-size: 1.9em;
+}
+.qwqw p {
+    font-weight: 400;
+}
+
+/* Blood Holds Start */
+.blood-holds{
+     background: #fff url(../images/liquid-biopsy.webp) no-repeat;
+    height: 70vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+/* .blood-holds .blood-content {
+  display: flex  ;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+} */
+.blood-content {
+  transform: translatey(-26%) !important;
+}
+.blood-holds h3 {
+  font-size: 1.8em;
+  font-weight: 500;
+}
+.gray-bg h2{
+  color: var(--dark-blue);
+}
+.gray-bg p{
+  color: #214670;
+}
+
+.blood-content.text-animation p {
+  font-weight: 500;
+  /* font-size: 1.2em; */
+}
+
+.text-justify{
+  text-align: justify;
+}
+.personalized-cancer-care{
+  padding: 8em 0;
+  background: var(--blue-new);
+}
+
+/* Blood Holds End */
+
+/* World Class Cancer Diagnostics Start */
+.world-class{
+  background: var(--light-gray);
+}
+.world-class .space{
+    margin-bottom: 9em;
+}
+/* .world-content .diagnostics-heading{
+    padding-top: 4em;
+} */
+.world-class h2 {
+  color: var(--blue-color);
+}
+
+.mobile-view{
+  visibility: hidden;
+  height: 0;
+}
+
+
+/* .diagnostics-heading h5, .world-content p{
+  color: #072240 !important;
+} */
+.diagnostics-heading h5{
+    font-size: 1.1em;
+    line-height: 1.3;
+    font-weight: 600;
+    }
+.location-point {
+  width: 30%;
+  height: 100%;
+  /* background: var(--gray); */
+  position: absolute;
+  top: 0;
+  right: 8%;
+  z-index: 9;
+}
+
+
+.world-content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 50%;
+  z-index: 1;
+  transform: translateY(-50%);
+  height: 56vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.usa, .uk, .germany, .india {
+    position: absolute;
+    right: 40%;
+    top: 38%;
+    transform: translate(-40%, -38%);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    color: #18385C;
+}
+.usa {
+  left: 12%;
+  top: 31%;
+  transform: translate(12%, -31%);
+  width: 30px;
+}
+.uk {
+  right: 32%;
+  top: 26%;
+  transform: translate(32%, -26%);
+}
+.germany {
+  right: 19%;
+  top: 31%;
+  transform: translate(-19%, -31%);
+  z-index: -1;
+}
+.india {
+  right: 3.5%;
+  transform: translate(3.5%, -38%);
+  z-index: -2;
+}
+.india-location, .germany-location, .uk-location, .usa-location {
+    position: absolute;
+    width: 200px;
+    /* height: 150px; */
+    background: var(--light-green);
+    left: -75px;
+    display: none;
+    transition: 0.5s;
+    padding:1em;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 500;
+    color: var(--title-color);
+    
+}
+.india:hover .india-location, .germany:hover .germany-location, .uk:hover .uk-location, .usa:hover .usa-location{
+    display: block;
+}
+
+.usa:before, .uk:before, .germany:before, .india:before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background: #18385C;
+  position: absolute;
+  left: -15px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50px;
+}
+
+/* World Class Cancer Diagnostics End */
+
+/* Cancer Screning Services Start */
+.cancer-screning{
+    background: var(--white);
+}
+.cancer-screning p {
+  font-size: 1.3em;
+  line-height: 1.3;
+  font-weight: 600;
+}
+.screning-services{
+  margin-bottom: 5em;
+}
+/* .cancer-screning li a{
+  color: var(--body-color);
+  text-decoration: none;
+  font-size: 6em;
+  line-height: 1.1;
+  display: block;
+  font-weight: 600;
+  transition: font-weight .2s ease-in-out;
+  cursor: pointer;
+} */
+
+
+.cancer-screning li a {
+  color: var(--body-color);
+  text-decoration: none;
+  font-size: 4em;
+  line-height: 1.1;
+  display: block;
+  font-weight: 500;
+  transition: color 0.2s ease-in-out, font-weight 0.2s ease-in-out;
+  cursor: pointer;
+  margin-bottom: 0.3em;
+}
+.cancer-screning li a span{
+  font-size: 20px;
+  display: block;
+  font-weight: 400;
+}
+
+
+.cancer-screning .screning-services li:nth-child(1) a:hover{
+  color:var(--blue-new)
+}
+
+
+.cancer-screning .screning-services li:nth-child(2) a:hover{
+  color:var(--blue-bg);
+}
+
+.cancer-screning .cancer-diagnosis li:nth-child(1) a:hover{
+  color: var(--light-blue);
+}
+
+.cancer-screning .cancer-diagnosis li:nth-child(2) a:hover {
+  color: var(--celldx); 
+}
+
+.cancer-screning .cancer-diagnosis li:nth-child(3) a:hover {
+  color: #79BE79;
+}
+
+.cancer-screning .cancer-diagnosis li:nth-child(4) a:hover {
+  color: #B2CC6F; 
+}
+.cancer-screning .cancer-diagnosis li:nth-child(5) a:hover {
+  color: #83C27A; 
+}
+.cancer-screning .cancer-diagnosis li:nth-child(6) a:hover {
+  color: #CAE191; 
+}
+/* .screning-services li:first-child a{
+  color: var(--blue-bg);
+}
+.screning-services li:last-child a{
+  color: #00D8FF;
+} */
+/* .cancer-screning li a:hover {
+    transform: translateX(15px);
+    font-weight: 600;
+    cursor: pointer;
+} */
+
+
+/* .cancer-diagnosis li a:hover:nth-child(1){
+  color: var(--light-blue);
+}
+.cancer-diagnosis li:nth-child(2){
+  color: var(--green-color);
+}
+.cancer-diagnosis li:nth-child(3){
+  color: var(--blue-bg);
+}
+.cancer-diagnosis li:nth-child(4){
+  color: #00D8FF;
+} */
+
+.cancer-screning li a sup {
+  top: -1em;
+  font-size: 0.4em;
+  left: -0.7em;
+  font-weight: 500;
+}
+.screning-services li:first-child sup{
+    font-size: 0.6em;
+    top: -0.6em;
+    left: -0.5em;
+}
+.screning-services li:last-child sup {
+    top: -1.3em;
+    font-size: 0.4em;
+    left: 0;
+    font-weight: 500;
+}
+/* Cancer Screning Services End */
+
+
+
+
+/* slider Mouse Scroll */
+
+.inner-banner .inner-caption {
+  max-width: 24%;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-18%, -50%);
+          
+}
+.inner-banner .inner-caption h2, .advanced-cancer-care-solutions .inner-banner h2{
+  color: #0A5CAB;
+  font-weight: 600;
+  display: block;
+  font-size: 3em;
+}
+
+.inner-banner .inner-caption h2 sup {
+  font-weight: 400;
+}
+.inner-banner .inner-caption p{
+  font-weight: 400;
+  font-size: 1.2em;
+  line-height: 1.2;
+  color: var(--text-black);
+}
+.trublood-safe-cost-effective-blood-tests sup {
+    font-size: 1.2em !important;
+    top: 0em !important;
+}
+/* .exacta .card-wrapper:last-child .card sup {
+  font-size: 0.6em;
+  top: -0.5em;
+} */
+
+
+
+.cls-1 {
+  fill: url(#linear-gradient-5);
+}
+
+.cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11 {
+  stroke-miterlimit: 10;
+}
+
+.cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-9, .cls-10, .cls-11 {
+  stroke: #fff;
+  stroke-width: .25px;
+}
+
+.cls-2 {
+  fill: url(#linear-gradient-6);
+}
+
+.cls-3 {
+  fill: url(#linear-gradient-8);
+}
+
+.cls-4 {
+  fill: url(#linear-gradient-2);
+}
+
+.cls-12 {
+  fill: none;
+}
+
+.cls-12, .cls-13, .cls-14, .cls-15, .cls-16 {
+  stroke-width: 0px;
+}
+
+.cls-13 {
+  fill: url(#radial-gradient);
+}
+
+.cls-13, .cls-14, .cls-15, .cls-16 {
+  isolation: isolate;
+}
+
+.cls-5 {
+  fill: url(#linear-gradient-10);
+}
+
+.cls-6 {
+  fill: url(#linear-gradient-9);
+}
+
+.cls-7 {
+  fill: url(#linear-gradient-3);
+}
+
+.cls-8 {
+  stroke: url(#linear-gradient);
+  stroke-width: 1.2px;
+}
+
+.cls-8, .cls-11 {
+  fill: #fff;
+}
+
+.cls-14 {
+  fill: url(#radial-gradient-2);
+}
+
+.cls-9 {
+  fill: url(#linear-gradient-7);
+}
+
+.cls-10 {
+  fill: url(#linear-gradient-4);
+}
+
+.cls-15 {
+  fill: url(#radial-gradient-3);
+}
+
+.cls-16 {
+  fill: url(#radial-gradient-4);
+}
+
+
+
+.advanced-cancer-care-solutions .inner-banner {
+  height: 93vh;
+  background: var(--white);
+  display: flex;
+  align-items: center;
+}
+
+.advanced-cancer-care-solutions .inner-banner h2 {
+  color: var(--trublood);
+  /* font-weight: 600;
+  font-size: 3em; */
+  margin-top: -4em;
+}
+.solutions-screening h2 span{
+  font-weight: 600;
+}
+.advanced-cancer-care-solutions .inner-banner:after {
+  content: "";
+  width: 100%;
+  height: 25%;
+  background: url(../images/cancer-testing.svg) bottom no-repeat !important;
+  background-size: 100% !important;
+  position: absolute;
+  bottom: 2em;
+  left: 0;
+  right: 0;
+  z-index: 9;
+}
+.solutions-screening {
+  height: 100vh;
+  background: url(../images/screening.webp) 100% no-repeat;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  background-size: cover !important;
+}
+.italic-heading {
+  font-style: italic;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.solutions-screening p {
+  font-size: 25px;
+  font-weight: 300;
+}
+.solutions-screening sup{
+    font-weight: 400;
+    font-size: 0.5em !important;
+    top: -1em !important;
+}
+.solutions-screening p sup {
+    font-size: 1em !important;
+    top:-0.1em !important; 
+}
+.solution-diagnosis sup {
+    font-weight: 400;
+    font-size: 1em !important;
+    top: -0.1em !important;
+    left: -0.3em;
+}
+.solution-diagnosis ul li{
+  list-style: unset;
+}
+.solutions-screening:after {
+  content: "";
+  width: 100%;
+  height: 25%;
+  background: url(../images/non-invasive.svg) bottom no-repeat !important;
+  background-size: 100% !important;
+  position: absolute;
+  bottom: 1em;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.right-card {
+  position: absolute;
+  right: 0;
+  bottom: -13em;
+  height: 100%;
+  /* overflow: hidden; */
+}
+
+.solutions-item {
+  padding: 2em;
+  border-radius: 15px;
+  background: var(--white);
+  color: var(--text-black);
+  margin-bottom: 20%;
+  transition: all 0.4s ease-out;
+}
+.solutions-screening .solutions-item h4, .solutions-screening .solutions-item p{
+  color: var(--blue-bg);
+}
+.solutions-item h4 {
+  font-style: normal;
+  text-decoration: none;
+  font-weight: 600;
+}
+.solutions-item p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.solutions-screening .solutions-item a{
+  color: var(--body-color);
+  text-decoration: none;
+}
+.solution-diagnosis{
+  background: #3B9CE6;
+}
+
+.solution-diagnosis img {
+  max-width: 26%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+}
+
+.solution-diagnosis h2 {
+  /* font-size: 3em; */
+  /* font-weight: 400; */
+}
+
+.solution-diagnosis span{
+  font-weight: 600;
+}
+.solution-diagnosis a {
+  font-weight: 400;
+  font-size: 16px;
+  transition: 0.5s;
+  display: inline-block;
+}
+
+.therapy-guidance{
+  background: url(../images/personalised-treatment-plan.webp) center no-repeat;
+    height: 100vh;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.therapy-guidance h2 {
+  font-weight: 600;
+  text-transform: capitalize;
+  font-size: 1.8em;
+}
+
+.therapy-guidance h3{
+  text-transform: capitalize;
+} 
+.card-body h5 {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.cards {
+  position: relative;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 3rem 0;
+  margin: 0;
+}
+
+.therapy-card {
+  height: 100%;
+  position: relative;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+  border-radius: 8px;
+  border: none;
+  /* background-color: #03C5B8; */
+  z-index: 3;
+  padding: 1em;
+  box-sizing: border-box;
+  z-index: 3;
+  top: 8%;
+
+}
+.card1{
+  position: relative;
+  top: 8%;
+  padding: 1em;
+  border-radius: 8px;
+  /*background: rgb(3 197 184 / 40%);*/
+  background:#03c5b8;
+  /*-webkit-backdrop-filter: blur(10px);*/
+  /*backdrop-filter: blur(10px);*/
+}
+/* .card1 p {
+  font-size: 0.9em;
+} */
+.card-body p {
+  font-weight: 400;
+}
+
+.card-body sup {
+    font-weight: 400;
+    font-size: 1em !important;
+    top: -0em !important;
+}
+
+.card-body a, .solutions-screening .solutions-item a, .solution-monitoring .fact a{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 400;
+  transition: 0.5s;
+}
+.card-body a:hover, .solution-monitoring .fact a:hover, .solutions-screening .solutions-item a:hover, .solution-diagnosis a:hover, .test-portfolio .caption a:hover{
+  color: var(--text-black) !important;
+  font-weight: 500; 
+
+}
+/*.therapy-card:nth-child(2) sup, .card1 h2 sup:nth-child(1) {*/
+/*  font-weight: 400;*/
+/*  font-size: 0.6em;*/
+/*  top: -0.4em;*/
+/*}*/
+.therapy-card:nth-child(2) {
+  top: 18%;
+  z-index: 4;
+  background: #03d6c8;
+  /*background: rgb(3 214 200 / 40%);*/
+  /*-webkit-backdrop-filter: blur(10px);*/
+  /*backdrop-filter: blur(10px);*/
+  height: 35%;
+}
+
+.therapy-card:nth-child(3) {
+  top:27%;
+  z-index: 5;
+  background: #13bdb2;
+  /*background: rgb(16 109 103 / 40%);*/
+  /*-webkit-backdrop-filter: blur(10px);*/
+  /*backdrop-filter: blur(10px);*/
+  padding: 1em;
+  height: 28%;
+}
+.therapy-card:nth-child(4) {
+  top: 35%;
+  z-index: 6;
+    background: #2fdcd1;
+  /*background: rgb(47 220 209 / 40%);*/
+  /*-webkit-backdrop-filter: blur(10px);*/
+  /*backdrop-filter: blur(10px);*/
+  height: 26%;
+}
+.therapy-card:nth-child(5) {
+  top: 44%;
+  z-index: 6;
+    background: #13bdb2;
+  /*background: rgb(47 220 209 / 40%);*/
+  /*-webkit-backdrop-filter: blur(10px);*/
+  /*backdrop-filter: blur(10px);*/
+  height: 26%;
+}
+
+.solution-monitoring {
+    overflow-x: hidden;
+    height: 100%;
+}
+.solution-monitoring p sup {
+    font-size: 1.2em !important;
+    top: 0 !important;
+}
+.solution-monitoring .italic-heading{ 
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.factsContainer_sm {
+  display: flex;
+  width: 100%;
+  height: 100vh !important;
+  align-items: center;
+  padding-left: 17% !important;
+}
+.container.dwdw {
+  position: absolute;
+  top: 10%;
+}
+.fact {
+  max-width: 70%;
+  border: none;
+  margin-left: 0;
+  text-align: justify;
+  margin-right: 2em;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.factsContainer_sm > div {
+  display: flex;
+  flex-shrink: 0;
+  flex: 0 0 50%;
+  /* flex: 0 0 35%; */
+}
+
+.first-card div {
+  margin-top: 2em;
+}
+.solution-monitoring .first-card h2{
+  color: var(--green-color);
+  font-weight: 300;
+}
+.solution-monitoring .first-card h2 span{
+  font-weight: 800;
+}
+.solution-monitoring .first-card > div h2, .solution-monitoring .second-card h2{
+  color: #48535B;
+  font-weight: 600;
+}
+.solution-monitoring .card-wrapper .second-card p span{
+  color: var(--green-color);
+  font-weight: 800;
+}
+.fact img{
+  max-width: 150px;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 100px;
+}
+.factsContainer_sm > img{
+  position: absolute;
+  width: 100%;
+  left: 0%;
+  right: 0;
+}
+.solution-monitoring .card-wrapper .fact p{
+  line-height: 1.3;
+} 
+/* .solution-monitoring .card-wrapper:nth-child(2) .fact{
+  max-width: 60%;
+} */
+.solution-monitoring .card-wrapper:nth-child(3) .fact{
+  width: 70%;
+  /* background: #ccc; */
+}
+
+.solution-monitoring .card-wrapper:nth-child(2) h2{
+  margin-bottom: 2em;
+}
+
+.solution-monitoring .card-wrapper:nth-child(3) .fact img {
+  width: 100px;
+}
+.solution-monitoring .card-wrapper:nth-child(3) {
+  margin-top: 3em;
+}
+.solution-monitoring .card-wrapper:nth-child(3) p{
+  margin-top: 2em;
+}
+.solution-monitoring .card-wrapper:nth-child(4) .fact {
+  margin-top: -5em;
+}
+.solution-monitoring .card-wrapper:nth-child(4) .fact p {
+  margin-bottom: 3em;
+}
+.solution-monitoring .card-wrapper:nth-child(5) .fact {
+  margin-top: 8em;
+}
+.solution-monitoring .card-wrapper:nth-child(5) .fact p {
+  margin-top: 3em;
+}
+
+.solution-monitoring .card-wrapper:nth-child(6) .fact p {
+    margin-bottom: 3em;
+}
+
+
+.solution-monitoring .fact a{
+  color: #00B6F8;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* who-we Start */
+.non-invasive-blood-tests-to-detect-cancer .cancer-care {
+    background: #0A5CAB;
+}
+.non-invasive-blood-tests-to-detect-cancer .cancer-care p{
+    color:#fff;
+}
+.non-invasive-blood-tests-to-detect-cancer .card h1 {
+ color: #072240;
+font-weight: 800;
+font-size: 5em;
+}
+
+.non-invasive-blood-tests-to-detect-cancer .product-horizontal .card h2 {
+   color: #072240;
+}
+
+.non-invasive-blood-tests-to-detect-cancer  .product-horizontal .card p {
+  font-size: 1em;
+  /* font-weight: 500; */
+  color: #072240;
+}
+/* .non-invasive-blood-tests-to-detect-cancer .product-horizontal .card p {
+  font-size: 1.1em;
+  line-height: 1.2;
+  color: var(--dark-blue);
+} */
+
+.who-we .product-horizontal .card-wrapper:first-child {
+  justify-content: center;
+}
+.who-we .product-horizontal .card-wrapper:first-child .card{margin-left: 0;}
+.who-we .product-horizontal > div {
+  justify-content: left;
+}
+.who-we .product-horizontal .card {
+  max-width: 50%;
+}
+.who-we img {
+  /* width: 45%; */
+  /* margin: 3em auto; */
+  /*display: block;*/
+    height: 100vh;
+    object-fit: cover;
+}
+.abc{
+  display:none;
+}
+.who-we-caption {
+  width: 30%;
+  position: absolute;
+  bottom: 0;
+  left: 7%;
+}
+
+.non-invasive-blood-tests-to-detect-cancer .box-care {
+  max-width: 355px;
+  cursor: default;
+}
+.non-invasive-blood-tests-to-detect-cancer .blood-test img {
+  max-width: 170px;
+}
+.non-invasive-blood-tests-to-detect-cancer .blood-test {
+  top: 10%;
+}
+
+/* section.datar-genetics {
+  height: 80vh;
+  background: #1BB7AD;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section.datar-genetics h2{
+  font-weight: 600;
+  text-align: center;
+  color: #fff;
+  font-size: 3.4em;
+  line-height: 1;
+} */
+
+.our-thinking.test-portfolio {
+  background: url(../images/cancer-tests.webp) no-repeat;
+  height: 100%;
+}
+.our-thinking.test-portfolio .our-box{
+  transform: unset;
+ }
+.our-thinking h2{
+  font-size: 2.5em;
+  font-weight: 600;
+}
+.our-thinking h2, .our-thinking p, .blood-holds h2, .blood-holds p{
+  color: #072240;
+}
+
+ .test-portfolio h2 {
+  font-weight: 600;
+}
+ .test-portfolio-slider .swiper-slide {
+  position: relative;
+  background: #ccc;
+  padding: 1em;
+  border-radius: 15px;
+  height: 400px;
+}
+.test-portfolio-slider .swiper-pagination-bullets{
+  text-align: center;
+  margin-top: 1em;
+}
+.test-portfolio-slider .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background: #29adec;
+  opacity: 1;
+}
+.test-portfolio-slider .swiper-pagination-bullet-active {
+  opacity: 1;
+  background: #007aff;
+}
+.test-portfolio-slider .swiper-slide h2{
+  font-size: 1.8em;
+  color: var(--white);
+  font-weight: 600;
+}
+.test-portfolio-slider .swiper-slide p{
+  color: var(--white);
+}
+.test-portfolio-slider .caption {
+  position: absolute;
+  left: 0;
+  top: unset;
+  bottom: 30px;
+  z-index: 99999;
+  max-width: unset;
+  transform: unset;
+  padding: 0 1em;
+}
+.test-portfolio-slider .swiper-slide p {
+  font-size: 16px;
+}
+
+.test-portfolio-slider .swiper-slide:nth-child(1){
+  background: #0A5CAB;
+}
+.test-portfolio-slider .swiper-slide:nth-child(2){
+  background: #1875C3;
+}
+.test-portfolio-slider .swiper-slide h2 sup {
+  font-weight: 300;
+}
+.test-portfolio-slider .swiper-slide:nth-child(1) h2 sup{
+    top: -0.5em;
+    font-size: 0.8em;
+}
+/*.test-portfolio-slider .swiper-slide:nth-child(2) sup{*/
+/*  font-size: 0.7em;*/
+/*  top: -0.6em;*/
+/*}*/
+
+
+.test-portfolio-slider .swiper-slide p sup {
+    font-size: 1.2em !important;
+    top: 0 !important;
+}
+.test-portfolio-slider .swiper-slide:first-child p sup {
+    font-size: 1em !important;
+    top: -4px !important;
+}
+
+.test-portfolio-slider .swiper-slide:nth-child(3){
+  background: #2D9DE9;
+}
+.test-portfolio-slider .swiper-slide:nth-child(4){
+  background: #04AEEF;
+}
+.test-portfolio-slider .swiper-slide:nth-child(5){
+  background: #30ABA1;
+}
+.test-portfolio-slider .swiper-slide:nth-child(6){
+  background: #57B58B;
+}
+.test-portfolio-slider .swiper-slide:nth-child(7){
+  background: #83C27A;
+}
+.test-portfolio-slider .swiper-slide:nth-child(8){
+  background: #CAE191;
+}
+.test-portfolio .caption a{
+  color: var(--white) !important;
+  text-decoration: none; 
+transition: 0.5s;
+}
+.non-invasive-blood-tests-to-detect-cancer .box-care h2{
+  color: var(--white);
+  font-weight: 600;
+  font-size: 3em;
+}
+.non-invasive-blood-tests-to-detect-cancer .box-care h4 {
+  font-weight: 700;
+  color: var(--white);
+}
+.non-invasive-blood-tests-to-detect-cancer .therapy h4 {
+  color: var(--white);
+}
+
+.team{
+  background: var(--white);
+}
+.team h2{
+  color: #072240;
+  font-weight: 600;
+}
+.team h3 {
+  font-size: 1.3em;
+  color: #072240;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+.team p {
+  /* font-size: 1.5em; */
+  color: #072240;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.our-thinking {
+  background: url(../images/advanced-solutions-for-patients-globally.webp) center no-repeat;
+  background-size: cover;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.our-thinking .our-box{
+  transform: translateY(-40%);
+  /* background: rgba(255, 255, 255, 0.089);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  padding: 15px; */
+}
+/* who-we ENd */
+
+ 
+
+
+/* Product Start */
+sup {
+  top: -.0em;
+  font-size: 1.2em;
+}
+p sup {
+  font-size: 0.8em !important;
+  top: -0.3em !important;
+  left: 0 !important;
+}
+.excta-comprehensive-tumor-analysis .listening svg, .celldx-targeted-therapy-options .listening svg{
+  opacity: 0.5;
+}
+.chemo-scale-effective-chemotherapy .listening svg {
+  opacity: 0.7;
+}
+.cancertrack-non-invasive-cancer-monitoring .listening svg {
+  opacity: 0.8;
+}
+
+.product-list{
+  background: #0A5CAB;
+}
+
+.easycheck360 .product-horizontal .card h2, .easycheck360 .product-horizontal .card p, .easycheck360 .product-horizontal .card li {
+    color: #042341;
+}
+
+.pinaka360 .inner-banner .inner-caption h2{
+    color:#04AEEF;color:#04AEEF;
+}
+.pinaka360 .product-list{
+    background: #04AEEF;
+}
+.pinaka360 .product-horizontal .card h2, .pinaka360 .product-horizontal .card p, .pinaka360 .product-horizontal .card li {
+    color:#012F41;
+}
+
+.trublood-safe-cost-effective-blood-tests .product-list{
+  background: #1875C3;
+}
+.trublood-safe-cost-effective-blood-tests .inner-banner .inner-caption h2 {
+  color:#1875C3;
+}
+
+.trucheck-non-invasive-blood-tests .product-horizontal .card h2, .trucheck-non-invasive-blood-tests .product-horizontal .card p, .trucheck-non-invasive-blood-tests .product-horizontal .card li {
+  color: var(--blue-new);
+}
+.trublood-safe-cost-effective-blood-tests .product-horizontal .card h2, .trublood-safe-cost-effective-blood-tests .product-horizontal .card p, .trublood-safe-cost-effective-blood-tests .product-horizontal .card li {
+  color: #092842;
+}
+
+.excta-comprehensive-tumor-analysis .product-list {background: #2D9DE9;}
+
+.excta-comprehensive-tumor-analysis .card-wrapper:nth-child(4) .card{ max-width: 50%;}
+
+.excta-comprehensive-tumor-analysis .inner-banner .inner-caption h2 {
+  color: #2D9DE9;
+}
+.excta-comprehensive-tumor-analysis .product-horizontal .card h2, .excta-comprehensive-tumor-analysis .product-horizontal .card p, .excta-comprehensive-tumor-analysis .product-horizontal .card li {
+  color: #0C2C42;
+}
+
+.celldx-targeted-therapy-options .product-list {background: #30ABA1;}
+.celldx-targeted-therapy-options .inner-banner .inner-caption h2 {
+  color: #30ABA1;
+}
+.celldx-targeted-therapy-options .product-horizontal .card h2, .celldx-targeted-therapy-options .product-horizontal .card p {
+  color: #14403C;
+}
+
+
+.chemo-scale-effective-chemotherapy .product-list {background: #57B58B;}
+.chemo-scale-effective-chemotherapy .inner-banner .inner-caption h2 {
+  color: #57B58B;
+}
+.chemo-scale-effective-chemotherapy .product-horizontal .card h2, .chemo-scale-effective-chemotherapy .product-horizontal .card p, .chemo-scale-effective-chemotherapy .product-horizontal .card li {
+  color: #224335;
+}
+
+.cancertrack-non-invasive-cancer-monitoring .product-list {background: #83C27A;}
+.cancertrack-non-invasive-cancer-monitoring .inner-banner .inner-caption h2 {
+  color: #69b35f;
+}
+.cancertrack-non-invasive-cancer-monitoring .product-horizontal .card h2, .cancertrack-non-invasive-cancer-monitoring .product-horizontal .card p{
+   color: #2D432A; 
+}
+
+
+.targetmrd360 .product-list {background: #CAE191;}
+.targetmrd360 .inner-banner .inner-caption h2 {
+  color: #CAE191;
+}
+.targetmrd360 .product-horizontal .card h2, .targetmrd360 .product-horizontal .card p, .targetmrd360 .product-horizontal .card li{
+   color: #394027; 
+}
+
+
+.card ul{
+  padding-left: 1.5em;
+}
+.card ul li {
+  list-style: disc;
+  font-size: 1.2em;
+  font-weight: 500;
+  text-align: justify;
+}
+
+/* .product-list h2{
+  font-weight: 300;
+} */
+#product-scoll sup {
+    top: -.0em !important;
+    font-size: 1.2em !important;
+}
+.product-sec {
+  position: relative;
+  /* background: #ccc; */
+  overflow: hidden;
+}
+.video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+}
+div#product-scoll {
+  top: 0% !important;
+}
+#video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+  /* opacity: 0.5; */
+}
+.horizontal-scoll-wrapper {
+  overflow: hidden;
+  height: 100vh;
+position: relative;
+}
+/* .trucheck-non-invasive-blood-tests .horizontal-scoll-wrapper:before, .trublood .horizontal-scoll-wrapper:before, .exacta .horizontal-scoll-wrapper:before, .celldx .horizontal-scoll-wrapper:before, .chemo-scale .horizontal-scoll-wrapper:before, .cancertrack .horizontal-scoll-wrapper:before{
+  content: "";
+  background: rgb(255 255 255 / 30%);
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+} */
+.chemo-scale-effective-chemotherapy .horizontal-scoll-wrapper:before{
+  background: rgb(121 190 121 / 22%);
+}
+.product-horizontal {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+.product-horizontal > div {
+  display: flex;
+  flex-shrink: 0;
+  padding: 0 5px;
+  flex: 0 0 100%;
+}
+.product-horizontal .card h2, .product-horizontal .card p {
+  color: #295107;
+}
+.product-horizontal .card h2{
+  font-size: 2.2em;
+  font-weight: 600;
+  transition: transform 0.2s ease-out;
+}
+.product-horizontal .card p{
+  font-size: 1.2em;
+  font-weight: 500;
+}
+.product-horizontal .card {
+  padding: 30px;
+  max-width: 40%;
+  /* background-color: rgba(255, 255, 255, 0.3); */
+  /* backdrop-filter: blur(10px); */
+  background: transparent;
+  border: none;
+  border-radius: 15px;
+  margin-left: 5%;
+  height: 320px;
+  align-items: baseline;
+  justify-content: center;
+  text-align: left;
+}
+
+
+.easycheck360 .inner-banner .inner-caption h2 sup {
+    font-size: 0.8em;
+    top: -0.5em;
+}
+.easycheck360 #product-scoll sup {
+  top: -0.2em !important;
+  font-size: 1.2em !important;
+}
+.easycheck360 #product-scoll h2 sup {
+    font-size: 1em !important;
+}
+
+
+.click-to-view{
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 99;
+    color: #042341;
+    font-weight: 400;
+}
+.click-to-view a{
+    font-weight: 600;
+    color: #042341;
+    text-decoration: none;
+}
+.trublood-safe-cost-effective-blood-tests .click-to-view, .trublood-safe-cost-effective-blood-tests .click-to-view a{
+    color:#092842;
+}
+.excta-comprehensive-tumor-analysis .click-to-view, .excta-comprehensive-tumor-analysis .click-to-view a{
+    color:#0C2C42;
+}
+.pinaka360 .click-to-view, .pinaka360 .click-to-view a{
+    color:#012F41;
+}
+.celldx-targeted-therapy-options .click-to-view, .celldx-targeted-therapy-options .click-to-view a{
+    color:#14403C;
+}
+.chemo-scale-effective-chemotherapy .click-to-view, .chemo-scale-effective-chemotherapy .click-to-view a{
+    color:#224335;
+}
+.cancertrack-non-invasive-cancer-monitoring .click-to-view, .cancertrack-non-invasive-cancer-monitoring .click-to-view a{
+    color:#2D432A;
+}
+.targetmrd360 .click-to-view, .targetmrd360 .click-to-view a{
+    color:#394027;
+}
+
+/* Product End */
+
+
+
+/* FAQS Start */
+.faq .nav-tabs{
+  border-bottom: none;
+  justify-content: center;
+}
+.faq .nav-tabs .nav-link {
+    background: transparent;
+    border: 2px solid var(--blue-new);
+    margin: 0 0.3em;
+    border-radius: 50px;
+    color: var(--blue-new);
+    padding: 0.3em 1em;
+}
+.faq .nav-tabs .nav-link.active{
+  background: var(--blue-new);
+  border: 2px solid var(--blue-new);
+  color: var(--white);
+}
+.nav sup {
+  top: 0.2em;
+  font-size: 1.5em;
+}
+/*.nav li:nth-child(2) sup {*/
+/*  font-size: 1em;*/
+/*  top: -0.2em;*/
+/*}*/
+.accordion-item:not(:first-of-type), .accordion-item {
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, .125);
+  margin-bottom: 1em;
+}
+.accordion-button {
+  color: var(--title-color);
+  font-size: 0.5em;
+  font-weight: 500;
+  display: inline !important;
+}
+.accordion-button sup {
+    top: 0em;
+    font-size: 1.2em;
+}
+.accordion-body p sup {
+  font-size: 1em !important;
+  top: -0em !important;
+}
+.accordion-button:not(.collapsed) {
+  color: var(--white);
+  background: var(--blue-new);
+}
+.accordion-button:focus {
+  box-shadow: none;
+}
+.accordion-button::after, .accordion-button:not(.collapsed)::after {
+  background: #e7f1ff url(../images/arrow-up-short.svg) no-repeat center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-size: 70%;
+
+
+  /* display: flex  ; */
+      position: absolute;
+      right: 12px;
+      top: 8px;
+}
+.accordion-button:not(.collapsed)::after {
+  transform: rotate(-180deg);
+  background: var(--white) url(../images/arrow-up-short.svg) no-repeat center; 
+  background-size: 70%;
+
+  position: absolute;
+  right: 12px;
+  top: 8px;
+}
+
+.accordion-button, .accordion-body {
+  padding: 1rem 3rem 1rem 0.5rem;
+}
+
+.accordion-body p{
+  font-size: 0.9em;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.fade:not(.show){
+  opacity: 1;
+}
+
+.faq .nav-tabs .nav-item:nth-child(1) .nav-link sup{
+    font-size: 1em;
+    top: -0.2em;
+}
+#easycheck .accordion-button sup, #easycheck .accordion-body sup {
+    font-size: 0.8em;
+    top: -0.3em;
+}
+
+
+/* FAQS End */
+
+
+/* Events Start */
+.conferences {
+  background: url(../images/oncology-conferences.webp) center no-repeat;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.latest-global-medical-events .card {
+  border-radius: 1rem;
+  height: 320px;
+  position: relative;
+  background-color: rgb(255 255 255 / 55%);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+.latest-global-medical-events .card-body {
+  padding: 1.5rem;
+}
+.latest-global-medical-events .card-body h5 {
+  font-size: 1em;
+  color: var(--text-black);
+}
+.latest-global-medical-events .card-body p, .latest-global-medical-events .card-body a, .test-portfolio .caption a, .latest-press a  {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.3;
+  color: var(--text-black);
+  transition: 0.5s;
+}
+/* .latest-global-medical-events .card-body a:hover{
+  color: var(--exacta);
+} */
+.latest-global-medical-events .caption {
+  left: 0;
+  right: 0;
+  top: unset;
+  bottom: 0;
+  padding: 0 1.3em;
+}
+/* Events End */
+
+/* Terms Start */
+.terms span {
+  background: #1560A1;
+  padding: 15px 30px;
+  color: var(--white);
+  display: inline-block;
+  border-radius: 50px;
+  line-height: 1;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.terms ul {
+  padding-left: 20px;
+}
+.terms ul li {
+  list-style: disc;
+      padding-bottom: 0.3em;
+}
+
+.terms .credit-point li {
+  list-style: none;
+}
+.latest-press{
+  background: var(--gray);
+}
+.latest-press h2{
+  font-weight: 600;
+  font-size: 2em;
+  color: var(--body-color);
+  transition: 0.5s;
+}
+.latest-press p{
+  font-size: 16px;
+  margin-bottom: 5px;
+  transition: 0.5s;
+}
+
+.latest-press p span {
+  display: block;
+  transform: unset;
+}
+.latest-press a{
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.latest-cancer-advancements p sup {
+    font-size: 1.2em !important;
+    top: -0.0em !important;
+}
+.latest-press .row:hover h2{
+  color: #1560A1;
+}
+.latest-press .row:hover p, .latest-press .row:hover a{
+  color: var(--trublood);
+}
+/* Terms End */
+
+.contatcus h3{
+  font-weight: 500;
+  font-size: 1.3em;
+  color: var(--blue-new);
+} 
+.contatcus .form-check label, .preferred-contact {
+  font-weight: 500;
+  font-size: 0.9em;
+  cursor: pointer;
+}
+.contatcus p{
+  font-weight: 500;
+  font-size: 0.9em;
+}
+.contact-us .product-list a {
+  text-decoration: none;
+}
+.contact-us .product-list h3 {
+  font-size: 1em;
+}
+
+.form-check-input:checked {
+  background-color: var(--trublood);
+  border-color: var(--trublood);
+}
+.form-check-input {
+  border: 1px solid var(--trublood);
+}
+.contatcus .form-control {
+  border: 1px #ccc solid;
+  border-radius: 0;
+  padding: 10px;
+}
+.error-msg {
+    font-size: 0.8em;
+    font-weight: 400;
+}
+
+
+
+.publication-page hr {
+    background: #072240;
+    opacity: 1;
+    width: 80%;
+    margin: 25px auto;
+}
+.publication-page .nav-tabs .nav-link {
+    background: 0 0;
+    border: 2px solid #072240;
+    margin: 0 1em;
+    border-radius: 50px;
+    color: #072240;
+    font-size: 0.8em;
+    padding: .5em 1.4em;
+    text-transform: uppercase;
+}
+.publication-page .nav-tabs .nav-link.active {
+    background: #18385C;
+    border: 2px solid #18385C;
+}
+
+.publication-box {
+    border-radius: 15px;
+    padding: 25px;
+    min-height: 360px;
+    position: relative;
+}
+.publication-box h3{
+    font-weight: 500;
+    color: #fff;
+    font-size: 1.2em;
+}
+.publication-box p{
+    color: #fff;
+    font-weight: 400;
+}
+.publication-box a {
+    background: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #1560A1;
+    font-size: 1em;
+    position: absolute;
+    bottom: 25px;
+}
+
+
+.tab-pane .col-lg-4:nth-child(odd) .publication-box{
+  background: #0A5CAB;
+}
+.tab-pane .col-lg-4:nth-child(even) .publication-box{
+  background: #2D9DE9;
+}
+
+
+
+
+/* footer Start */
+footer{
+  /*background: #C9E5FF;*/
+      background: #0A5CAB;
+}
+footer form{
+  width: 100%;
+}
+footer form .form-control {
+  padding: 15px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  /*text-transform: lowercase;*/
+  font-style: italic;
+  color: #072240;
+}
+footer p, footer a {
+  font-weight: 500;
+  /* font-size: 0.9em; */
+}
+footer .btn, .contatcus .btn, .trusted-head .btn {
+  background: var(--body-color);
+  background: #072240;
+  text-transform: uppercase;
+  padding: 20px 40px;
+  border-radius: 50px;
+  line-height: 1;
+}
+
+footer h5, footer p{
+  /*color: #072240;*/
+  color: #fff;
+}
+footer h5{
+  font-weight: 600;
+  font-size: 1.3em;
+}
+footer a{
+  /*color: #072240;*/
+  color: #fff;
+  text-decoration: none;
+  transition: 0.5s;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+footer a:hover{
+  color: var(--trublood);
+}
+footer .btn:hover, .contatcus .btn:hover, footer .btn:focus, .contatcus .btn:focus{
+  background: var(--trublood);
+  color: var(--white);
+}
+.contatcus .btn {
+  padding: 20px 30px;
+}
+footer sup {
+  top: 0.3em !important;
+  font-size: 1.7em !important;
+}
+.sup-top sup {
+    top: -0.2em !important;
+    font-size: 1.1em !important;
+}
+/*footer ul li:nth-child(2) sup {*/
+/*  font-size: 1.1em !important;*/
+/*  top: -4px !important;*/
+/*}*/
+.social li{
+  margin-right: 10px;
+}
+.social li svg{
+    /*fill: var(--body-color);*/
+  fill: var(--white);
+  transition: 0.5s;
+}
+.social li a:hover svg{
+  fill: var(--trublood);
+}
+footer hr:not([size]) {
+  /* height: 1.5px; */
+  background: #2D9DE9;
+  opacity: 1;
+}
+footer span{
+  position: absolute;
+  left: 0;
+  right: 0;
+  background: var(--body-color);
+  padding: 10px 25px;
+  border-radius: 50px;
+  max-width: 390px;
+  text-align: center;
+  top: -10px;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 20px;
+}
+/* footer p{
+  font-weight: 300;
+} */
+footer .accreditations p{
+  font-weight: 400;
+}
+.accreditations a {
+  font-weight: 500;
+  text-decoration: underline;
+}
+.terms a {
+  position: relative;
+  font-weight: 500;
+  margin: 0;
+}
+
+.terms a:before {
+    content: '';
+    width: 1px;
+    background: #2D9DE9;
+    height: 20px;
+    position: absolute;
+    right: -20%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.terms li:last-child a:before{
+  display: none;
+}
+
+button.swal2-confirm.swal2-styled {
+    background: #0a5cab;
+    padding: 0.5em 1.55em;
+    margin: 0;
+}
+h2#swal2-title {
+    color: #0a5cab;
+    font-size: 22px;
+    font-weight: 400;
+}
+div:where(.swal2-icon) {
+    margin: 1.5em auto .6em;
+}
+/* footer End */

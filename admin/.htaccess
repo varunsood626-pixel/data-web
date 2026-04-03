@@ -1,0 +1,13 @@
+# Disable directory browsing
+Options -Indexes
+
+# Disable server signature
+ServerSignature Off
+
+# Enable rewrite engine and route requests to framework
+RewriteEngine On
+
+# Handle requests to remove /public/ from URL
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ public/index.php/$1 [L]
